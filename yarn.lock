@@ -2,6 +2,6 @@
 # yarn lockfile v1
 
 
-"js-lib@git+ssh:git@github.com:bassaer/js-lib.git#develop":
+"js-lib@git+ssh:git@github.com:bassaer/js-lib.git":
   version "1.0.0"
-  resolved "git+ssh:git@github.com:bassaer/js-lib.git#90d3cef6363d7bcc185269668228633d849de32f"
+  resolved "git+ssh:git@github.com:bassaer/js-lib.git#dccfec429a77be56dbb3d40a9f51ce1453b557d6"

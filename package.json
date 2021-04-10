@@ -18,6 +18,6 @@
     },
     "homepage": "https://github.com/bassaer/js-lib-client#readme",
     "dependencies": {
-        "js-lib": "git+ssh:git@github.com:bassaer/js-lib.git#develop"
+        "js-lib": "git+ssh:git@github.com:bassaer/js-lib.git"
     }
 }
