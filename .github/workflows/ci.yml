@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
       - name: install
         env:
-          SECRET: ${{ secrets.MY_SECRET }}
+          MY_SECRET: ${{ secrets.MY_SECRET }}
           GIT_SSH_COMMAND: ssh -i ~/my_secret
         run: |
           echo "$MY_SECRET" > ~/my_secret
