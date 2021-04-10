@@ -14,7 +14,7 @@ jobs:
         env:
           SECRET: ${{ secrets.MY_SECRET }}
           GIT_SSH_COMMAND: ssh -i ~/my_secret
-        run:
+        run: |
           echo "$MY_SECRET" > ~/my_secret
           chmod 600 ~/my_secret
           yarn
