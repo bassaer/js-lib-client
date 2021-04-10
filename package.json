@@ -1,0 +1,23 @@
+{
+    "name": "js-lib-client",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bassaer/js-lib-client.git"
+    },
+    "keywords": [],
+    "author": "Tsubasa Nakayama <app.nakayama@gmail.com> (https://bassaer.github.io/me/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bassaer/js-lib-client/issues"
+    },
+    "homepage": "https://github.com/bassaer/js-lib-client#readme",
+    "dependencies": {
+        "js-lib": "git+ssh:git@github.com:bassaer/js-lib.git"
+    }
+}
